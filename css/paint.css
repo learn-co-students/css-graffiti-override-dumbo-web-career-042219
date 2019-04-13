@@ -4,6 +4,7 @@ body {
 }
 
 #wall {
+  display: hidden;
   position: relative;
   margin: 40px auto;
   width: 980px;
@@ -17,7 +18,7 @@ body {
 }
 
 .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
   width: 980px;
